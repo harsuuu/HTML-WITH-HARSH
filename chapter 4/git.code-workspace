@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\C files❤️"
+		},
+		{
+			"path": "..\\..\\D.S"
+		},
+		{
+			"path": "..\\..\\ETHICAL HACKING"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Udemy"
+		},
+		{
+			"path": "..\\..\\PYTHON"
+		},
+		{
+			"path": "..\\..\\CSS"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"practice1.C": "cpp",
+			"*.tcc": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "CSS"
+	}
+}
