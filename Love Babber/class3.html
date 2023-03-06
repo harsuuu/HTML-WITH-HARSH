@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{    /*--isme agr td,tr nhi likhenge to ye sirf rectangle bna dega islye td and tr uske hisab se bnayega.*/
+            border: 1px solid black;      /*double line ki table bn rhi hogi isliye ye krenge.neeche bala.*/
+            border-collapse: collapse;      /* isse table single line ki ho jayegi*/
+            text-align: center;   
+            /* isse text allign se middle m aa jayega main first bala colspan */
+        }
+    </style>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body> 
+
+    <!-- yha me bookmarks create krne aaya hu. -->
+    <a href="#homework">click  to go homework</a>
+    <hr>
+    <!-- table k uper uper heading liye caption tag hota hai. -->
+    <caption>Details :</caption>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            
+        </tr>
+        <tr>
+            <td>Harsh</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Ravindra</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Madhav</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Aarav</td>
+            <td>10</td>
+        </tr>
+
+
+         <!-- Note - jese agr hme kisi bhi name ko bold krna hai to td ki th ka use kr skte hai. -->
+    </table>
+
+    <hr>
+
+      <!-- span table -->
+      <caption>Details :</caption>
+      <table>
+        <tr>
+            <th colspan="2">Name</th>    
+             <!-- ab yha Name jonhoga 2 column ki jgah le lega. -->
+           
+            
+        </tr>
+        <tr>
+            <td>Harsh</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Ravindra</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Madhav</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Aarav</td>
+            <td>10</td>
+        </tr>
+
+
+         <!-- Note - jese agr hme kisi bhi name ko bold krna hai to td ki th ka use kr skte hai. -->
+    </table>
+
+
+    <hr>
+
+    <caption>ABCD Pdhlo :</caption>
+    <table>
+
+        <tr>
+            <th colspan="3">
+                abcd
+            </th>
+        </tr>
+
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+    </table>
+
+    <hr>
+    <caption>Phir se ABCD pdhlo :</caption>
+    <table>
+        <tr>
+            <td colspan="3">
+                ABCD
+            </td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td rowspan="3">abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+    </table>
+
+    <hr>
+    <caption> Bhakti 👏</caption>
+    <table>
+        <tr>
+            <th colspan="3">JAI SHREE RAM</th>
+        </tr>
+
+        <tr>
+            <td>RAM</td>
+            <td>RAM</td>
+            <td>RAM</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+            <td>RAM</td>
+            <td>RAM</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+            <td>RAM</td>
+            <td>RAM</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+            <td colspan="2" rowspan="2">RAM</td>
+          
+        </tr>
+        <tr>
+            <td>RAM</td>
+        
+        </tr>
+    </table>
+    
+    
+    <hr>
+    <caption>HOMEWORK PRACTICE :</caption>
+    <table>
+        <tr>
+            <td rowspan="2">State of Health</td>
+           
+            <td colspan="2">Fasting value</td>
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            
+         
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabets</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabets</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+        
+    </table>
+
+    <hr>
+    <table>
+        
+        <tr>
+            <th colspan="7">Time Table</th>
+            
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <td><b>Mon</b></td>
+            <td><b>Tue</b></td>
+            <td><b>Wed</b></td>
+            <td><b>Thu</b></td>
+            <td><b>Fri</b></td>
+        </tr>
+        <tr>
+           
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+           
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            
+            <td colspan="5"><b>Lunch</b></td>
+            
+        </tr>
+        <tr>
+           
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+           
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            
+        </tr>
+
+    </table>
+
+    <hr>
+    <h1 id="homework">HOMEWORK</h1>
+    <caption">This is colourfull table.</caption>
+     <table>
+         <!-- in table m colour krne k liye hm colgroup and col ka use krte hai. -->
+         <colgroup>
+        <col span="1" style="background-color: greenyellow;">
+        <!-- span=1 ka mtlb start ka 1st colum pr kro ye property -->
+        <col span="1" style="background-color: red;">
+        <col span="1" style="background-color: burlywood;">
+        <!-- ab kisi column ko hide krna hai to aise kr skrte hai.
+        <col span="1" style="visibility: collapse;"> -->
+        </colgroup>
+         <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Height</td>
+         </tr>
+         <tr>
+            <td>Harsh</td>
+            <td>20</td>
+            <td>173 cm.</td>
+         </tr>
+         <tr>
+            <td>Madhav</td>
+            <td>19</td>
+            <td>167 cm.</td>
+        
+         </tr>
+     </table>
+
+     <!-- sher shayri k liye blockquote use krte hai. -->
+     <blockquote>This is made by me.
+        <cite>--Harsh</cite>
+        <!-- cite m links bhi dal skte hai ki ye quote hmne yha se chepa hai. -->
+     </blockquote>
+</body>
+</html>
